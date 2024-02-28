@@ -29,6 +29,7 @@ Partial Class Form_Calibration
         Me.TrackBar5 = New System.Windows.Forms.TrackBar()
         Me.TrackBar6 = New System.Windows.Forms.TrackBar()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button_Connect = New System.Windows.Forms.Button()
         Me.ComboBox_Baudrate = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -45,7 +46,6 @@ Partial Class Form_Calibration
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.Button_Connect = New System.Windows.Forms.Button()
         CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBar2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBar3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -129,6 +129,15 @@ Partial Class Form_Calibration
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Communication"
+        '
+        'Button_Connect
+        '
+        Me.Button_Connect.Location = New System.Drawing.Point(512, 38)
+        Me.Button_Connect.Name = "Button_Connect"
+        Me.Button_Connect.Size = New System.Drawing.Size(134, 31)
+        Me.Button_Connect.TabIndex = 3
+        Me.Button_Connect.Text = "Connect"
+        Me.Button_Connect.UseVisualStyleBackColor = True
         '
         'ComboBox_Baudrate
         '
@@ -285,20 +294,11 @@ Partial Class Form_Calibration
         Me.Label8.TabIndex = 3
         Me.Label8.Text = "Base"
         '
-        'Button_Connect
-        '
-        Me.Button_Connect.Location = New System.Drawing.Point(512, 38)
-        Me.Button_Connect.Name = "Button_Connect"
-        Me.Button_Connect.Size = New System.Drawing.Size(134, 31)
-        Me.Button_Connect.TabIndex = 3
-        Me.Button_Connect.Text = "Connect"
-        Me.Button_Connect.UseVisualStyleBackColor = True
-        '
         'Form_Calibration
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(691, 526)
+        Me.ClientSize = New System.Drawing.Size(682, 703)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
