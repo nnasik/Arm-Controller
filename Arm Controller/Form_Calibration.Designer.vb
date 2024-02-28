@@ -318,7 +318,7 @@ Partial Class Form_Calibration
         'Button_Send
         '
         Me.Button_Send.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button_Send.Location = New System.Drawing.Point(633, 487)
+        Me.Button_Send.Location = New System.Drawing.Point(633, 486)
         Me.Button_Send.Name = "Button_Send"
         Me.Button_Send.Size = New System.Drawing.Size(88, 36)
         Me.Button_Send.TabIndex = 5
