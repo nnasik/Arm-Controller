@@ -48,6 +48,10 @@ Partial Class Form_Calibration
         Me.Label8 = New System.Windows.Forms.Label()
         Me.TextBox_Serial = New System.Windows.Forms.TextBox()
         Me.Button_Send = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
         CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBar2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBar3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -55,6 +59,8 @@ Partial Class Form_Calibration
         CType(Me.TrackBar5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBar6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TrackBar1
@@ -312,18 +318,62 @@ Partial Class Form_Calibration
         'Button_Send
         '
         Me.Button_Send.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button_Send.Location = New System.Drawing.Point(633, 488)
+        Me.Button_Send.Location = New System.Drawing.Point(633, 487)
         Me.Button_Send.Name = "Button_Send"
         Me.Button_Send.Size = New System.Drawing.Size(88, 36)
         Me.Button_Send.TabIndex = 5
         Me.Button_Send.Text = "Test"
         Me.Button_Send.UseVisualStyleBackColor = True
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.ErrorImage = Global.Arm_Controller.My.Resources.Resources.Red_triangle_svg
+        Me.PictureBox1.Image = Global.Arm_Controller.My.Resources.Resources.Red_triangle_svg
+        Me.PictureBox1.Location = New System.Drawing.Point(540, 108)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(20, 20)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 6
+        Me.PictureBox1.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.ErrorImage = Global.Arm_Controller.My.Resources.Resources.Red_triangle_svg
+        Me.PictureBox2.Image = Global.Arm_Controller.My.Resources.Resources.Red_triangle_svg
+        Me.PictureBox2.Location = New System.Drawing.Point(307, 293)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(20, 20)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 6
+        Me.PictureBox2.TabStop = False
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.LightCoral
+        Me.Panel1.Location = New System.Drawing.Point(231, 128)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(319, 25)
+        Me.Panel1.TabIndex = 7
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.LightCoral
+        Me.Panel2.Location = New System.Drawing.Point(231, 313)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(87, 25)
+        Me.Panel2.TabIndex = 7
+        '
         'Form_Calibration
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(782, 703)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button_Send)
         Me.Controls.Add(Me.TextBox_Serial)
         Me.Controls.Add(Me.Label8)
@@ -355,6 +405,8 @@ Partial Class Form_Calibration
         CType(Me.TrackBar6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -386,4 +438,8 @@ Partial Class Form_Calibration
     Friend WithEvents Button_Connect As Button
     Friend WithEvents TextBox_Serial As TextBox
     Friend WithEvents Button_Send As Button
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Panel2 As Panel
 End Class
