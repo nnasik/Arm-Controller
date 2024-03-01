@@ -188,9 +188,9 @@ Partial Class Form_Calibration
         'Text_angle6
         '
         Me.Text_angle6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Text_angle6.Location = New System.Drawing.Point(182, 128)
+        Me.Text_angle6.Location = New System.Drawing.Point(187, 128)
         Me.Text_angle6.Name = "Text_angle6"
-        Me.Text_angle6.Size = New System.Drawing.Size(35, 27)
+        Me.Text_angle6.Size = New System.Drawing.Size(30, 27)
         Me.Text_angle6.TabIndex = 2
         Me.Text_angle6.Text = "90"
         Me.Text_angle6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -198,9 +198,9 @@ Partial Class Form_Calibration
         'Text_angle5
         '
         Me.Text_angle5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Text_angle5.Location = New System.Drawing.Point(182, 190)
+        Me.Text_angle5.Location = New System.Drawing.Point(187, 190)
         Me.Text_angle5.Name = "Text_angle5"
-        Me.Text_angle5.Size = New System.Drawing.Size(35, 27)
+        Me.Text_angle5.Size = New System.Drawing.Size(30, 27)
         Me.Text_angle5.TabIndex = 2
         Me.Text_angle5.Text = "0"
         Me.Text_angle5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -208,9 +208,9 @@ Partial Class Form_Calibration
         'Text_angle4
         '
         Me.Text_angle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Text_angle4.Location = New System.Drawing.Point(182, 252)
+        Me.Text_angle4.Location = New System.Drawing.Point(187, 252)
         Me.Text_angle4.Name = "Text_angle4"
-        Me.Text_angle4.Size = New System.Drawing.Size(35, 27)
+        Me.Text_angle4.Size = New System.Drawing.Size(30, 27)
         Me.Text_angle4.TabIndex = 2
         Me.Text_angle4.Text = "0"
         Me.Text_angle4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -218,9 +218,9 @@ Partial Class Form_Calibration
         'Text_angle3
         '
         Me.Text_angle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Text_angle3.Location = New System.Drawing.Point(182, 314)
+        Me.Text_angle3.Location = New System.Drawing.Point(187, 314)
         Me.Text_angle3.Name = "Text_angle3"
-        Me.Text_angle3.Size = New System.Drawing.Size(35, 27)
+        Me.Text_angle3.Size = New System.Drawing.Size(30, 27)
         Me.Text_angle3.TabIndex = 2
         Me.Text_angle3.Text = "0"
         Me.Text_angle3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -228,9 +228,9 @@ Partial Class Form_Calibration
         'Text_angle2
         '
         Me.Text_angle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Text_angle2.Location = New System.Drawing.Point(182, 375)
+        Me.Text_angle2.Location = New System.Drawing.Point(187, 376)
         Me.Text_angle2.Name = "Text_angle2"
-        Me.Text_angle2.Size = New System.Drawing.Size(35, 27)
+        Me.Text_angle2.Size = New System.Drawing.Size(30, 27)
         Me.Text_angle2.TabIndex = 2
         Me.Text_angle2.Text = "0"
         Me.Text_angle2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -238,9 +238,9 @@ Partial Class Form_Calibration
         'Text_angle1
         '
         Me.Text_angle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Text_angle1.Location = New System.Drawing.Point(182, 436)
+        Me.Text_angle1.Location = New System.Drawing.Point(187, 438)
         Me.Text_angle1.Name = "Text_angle1"
-        Me.Text_angle1.Size = New System.Drawing.Size(35, 27)
+        Me.Text_angle1.Size = New System.Drawing.Size(30, 27)
         Me.Text_angle1.TabIndex = 2
         Me.Text_angle1.Text = "0"
         Me.Text_angle1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -251,9 +251,9 @@ Partial Class Form_Calibration
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(54, 131)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(65, 20)
+        Me.Label3.Size = New System.Drawing.Size(121, 20)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Gripper"
+        Me.Label3.Text = "Gripper        θ°"
         '
         'Label4
         '
@@ -261,9 +261,9 @@ Partial Class Form_Calibration
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(54, 193)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(103, 20)
+        Me.Label4.Size = New System.Drawing.Size(119, 20)
         Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Wrist Rotate"
+        Me.Label4.Text = "WristRotate θ°"
         '
         'Label5
         '
@@ -271,9 +271,9 @@ Partial Class Form_Calibration
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(54, 255)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(49, 20)
+        Me.Label5.Size = New System.Drawing.Size(120, 20)
         Me.Label5.TabIndex = 3
-        Me.Label5.Text = "Wrist"
+        Me.Label5.Text = "Wrist           θ°"
         '
         'Label6
         '
@@ -281,9 +281,9 @@ Partial Class Form_Calibration
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(54, 317)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(54, 20)
+        Me.Label6.Size = New System.Drawing.Size(120, 20)
         Me.Label6.TabIndex = 3
-        Me.Label6.Text = "Elbow"
+        Me.Label6.Text = "Elbow          θ°"
         '
         'Label7
         '
@@ -291,9 +291,9 @@ Partial Class Form_Calibration
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(54, 383)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(75, 20)
+        Me.Label7.Size = New System.Drawing.Size(121, 20)
         Me.Label7.TabIndex = 3
-        Me.Label7.Text = "Shoulder"
+        Me.Label7.Text = "Shoulder      θ°"
         '
         'Label8
         '
@@ -301,9 +301,9 @@ Partial Class Form_Calibration
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(54, 441)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(48, 20)
+        Me.Label8.Size = New System.Drawing.Size(119, 20)
         Me.Label8.TabIndex = 3
-        Me.Label8.Text = "Base"
+        Me.Label8.Text = "Base           θ°"
         '
         'TextBox_Serial
         '
