@@ -52,6 +52,7 @@ Partial Class Form_Calibration
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.txt_angles = New System.Windows.Forms.TextBox()
         CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBar2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBar3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -188,9 +189,9 @@ Partial Class Form_Calibration
         'Text_angle6
         '
         Me.Text_angle6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Text_angle6.Location = New System.Drawing.Point(187, 128)
+        Me.Text_angle6.Location = New System.Drawing.Point(177, 128)
         Me.Text_angle6.Name = "Text_angle6"
-        Me.Text_angle6.Size = New System.Drawing.Size(30, 27)
+        Me.Text_angle6.Size = New System.Drawing.Size(40, 27)
         Me.Text_angle6.TabIndex = 2
         Me.Text_angle6.Text = "90"
         Me.Text_angle6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -198,9 +199,9 @@ Partial Class Form_Calibration
         'Text_angle5
         '
         Me.Text_angle5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Text_angle5.Location = New System.Drawing.Point(187, 190)
+        Me.Text_angle5.Location = New System.Drawing.Point(177, 190)
         Me.Text_angle5.Name = "Text_angle5"
-        Me.Text_angle5.Size = New System.Drawing.Size(30, 27)
+        Me.Text_angle5.Size = New System.Drawing.Size(40, 27)
         Me.Text_angle5.TabIndex = 2
         Me.Text_angle5.Text = "0"
         Me.Text_angle5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -208,9 +209,9 @@ Partial Class Form_Calibration
         'Text_angle4
         '
         Me.Text_angle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Text_angle4.Location = New System.Drawing.Point(187, 252)
+        Me.Text_angle4.Location = New System.Drawing.Point(177, 252)
         Me.Text_angle4.Name = "Text_angle4"
-        Me.Text_angle4.Size = New System.Drawing.Size(30, 27)
+        Me.Text_angle4.Size = New System.Drawing.Size(40, 27)
         Me.Text_angle4.TabIndex = 2
         Me.Text_angle4.Text = "0"
         Me.Text_angle4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -218,9 +219,9 @@ Partial Class Form_Calibration
         'Text_angle3
         '
         Me.Text_angle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Text_angle3.Location = New System.Drawing.Point(187, 314)
+        Me.Text_angle3.Location = New System.Drawing.Point(177, 314)
         Me.Text_angle3.Name = "Text_angle3"
-        Me.Text_angle3.Size = New System.Drawing.Size(30, 27)
+        Me.Text_angle3.Size = New System.Drawing.Size(40, 27)
         Me.Text_angle3.TabIndex = 2
         Me.Text_angle3.Text = "0"
         Me.Text_angle3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -228,9 +229,9 @@ Partial Class Form_Calibration
         'Text_angle2
         '
         Me.Text_angle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Text_angle2.Location = New System.Drawing.Point(187, 376)
+        Me.Text_angle2.Location = New System.Drawing.Point(177, 376)
         Me.Text_angle2.Name = "Text_angle2"
-        Me.Text_angle2.Size = New System.Drawing.Size(30, 27)
+        Me.Text_angle2.Size = New System.Drawing.Size(40, 27)
         Me.Text_angle2.TabIndex = 2
         Me.Text_angle2.Text = "0"
         Me.Text_angle2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -238,9 +239,9 @@ Partial Class Form_Calibration
         'Text_angle1
         '
         Me.Text_angle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Text_angle1.Location = New System.Drawing.Point(187, 438)
+        Me.Text_angle1.Location = New System.Drawing.Point(179, 438)
         Me.Text_angle1.Name = "Text_angle1"
-        Me.Text_angle1.Size = New System.Drawing.Size(30, 27)
+        Me.Text_angle1.Size = New System.Drawing.Size(38, 27)
         Me.Text_angle1.TabIndex = 2
         Me.Text_angle1.Text = "0"
         Me.Text_angle1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -365,11 +366,20 @@ Partial Class Form_Calibration
         Me.Panel2.Size = New System.Drawing.Size(87, 25)
         Me.Panel2.TabIndex = 7
         '
+        'txt_angles
+        '
+        Me.txt_angles.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_angles.Location = New System.Drawing.Point(343, 485)
+        Me.txt_angles.Name = "txt_angles"
+        Me.txt_angles.Size = New System.Drawing.Size(284, 30)
+        Me.txt_angles.TabIndex = 8
+        '
         'Form_Calibration
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(782, 703)
+        Me.Controls.Add(Me.txt_angles)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Panel2)
@@ -442,4 +452,5 @@ Partial Class Form_Calibration
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel2 As Panel
+    Friend WithEvents txt_angles As TextBox
 End Class

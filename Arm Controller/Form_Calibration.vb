@@ -120,6 +120,10 @@ Public Class Form_Calibration
         UpdateTextBox(data)
     End Sub
 
+    Private Sub TextBox_Serial_TextChanged(sender As Object, e As EventArgs) Handles TextBox_Serial.TextChanged
+
+    End Sub
+
     Private Sub UpdateTextBox(data As String)
         ' InvokeRequired compares the thread ID of the calling thread to the thread ID of the creating thread
         ' If these threads are different, it returns true
